@@ -1,0 +1,16 @@
+{
+  "name": "FootRecon AI",
+  "short_name": "FootRecon",
+  "description": "AI-Powered Footprinting PWA for Ethical Hackers",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

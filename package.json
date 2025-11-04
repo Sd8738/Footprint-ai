@@ -1,0 +1,29 @@
+{
+  "name": "footrecon-ai",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "node-nmap": "^4.0.0",
+    "shodan-client": "^3.1.0",
+    "docx": "^8.2.2",
+    "dotenv": "^16.0.3"
+  },
+  "scripts": {
+    "start": "node server/server.js & react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": ["react-app"]
+  },
+  "browserslist": {
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
+  }
+}
